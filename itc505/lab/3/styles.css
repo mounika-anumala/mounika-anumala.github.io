@@ -1,0 +1,46 @@
+/* styles.css */
+@font-face {
+    font-family: 'Happy';
+    src: url('./fonts/HappyBirthdayDemo-p7aZK.ttf') format("truetype");
+    
+}
+@font-face {
+    font-family: "hey";
+    src: url('./fonts\HeybeibehDemo-YznYo.otf') format("opentype");
+   
+  }
+  @font-face {
+    font-family: "liz";
+    src: url('./fonts/LizelieDemo-X3nRo.otf') format("truetype");
+
+  }
+  
+  
+.ft1 {
+    font-size: 22px;
+    font-family: Happy;
+    color: #957DAD;
+}
+.ft2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #a315e0;
+}
+
+.ft3 {
+    font-size: 22px; 
+    font-family: liz;
+    color: #02125c;
+}
+
+body {
+    margin-right: 100px;
+    margin-left: 130px;
+    background-color: #ffd9f1;
+}
+
+h1 {
+    background-color: #e3fc89;
+    text-align: center;
+    font-family: 'hy';
+}
