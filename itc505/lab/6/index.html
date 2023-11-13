@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail Layout</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Root Calculator</h1>
+    </header>
+
+    <div class="container">
+        <aside class="left-sidebar">
+
+            <div><a href="www.google.com">Home</a></div>
+            <div><a href="www.google.com">Content</a></div>
+            <div><a href="www.google.com">About</a></div>
+            <div><a href="www.google.com">Contact</a></div>
+
+        </aside>
+
+        <main class="main">
+            <div id="content">
+
+                <p>Input a,b,c values from equation in form ax^2+bx+c=0</p>
+
+                <div>
+                    <label for="a">Give value for 'a': </label>
+                    <input type="text" name="a" id="a" class="txt" value="0" required>
+                </div>
+
+                <div>
+                    <label for="b">Give value for 'b': </label>
+                    <input type="text" name="b" id="b" class="txt" value="0" required>
+                </div>
+                <div>
+                    <label for="c">Give value for 'c': </label>
+                    <input type="text" name="c" id="c" class="txt" value="0" required>
+                </div>
+
+                <div>
+                    <input type="button" value="Find Roots" id="btn" onclick="displayroots()">
+                </div>
+
+                <div id="ans">
+                    <p id="root1">Root1=0</p>
+                    <p id="root2">Root2=0</p>
+                </div>
+
+
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <a href="https://www.amazon.com/gp/product/B07Y825V4N/ref=ewc_pr_img_4?smid=AKXVBT49GGF3B&psc=1"><img
+                    src="./img.jpg" alt="img here"></a>
+        </aside>
+    </div>
+
+    <footer>
+        <h3>Addendum</h3>
+        <p>In my JavaScript part of project I tried solving a quadratic equation to find its roots. I use three input
+            boxes to collect the user input of three coefficients of a quadratic equation. Then I used a button which
+            when clicked calls a function that takes the values from the input fields and pass them as parameters to
+            other function which calculated roots for the equation. I used java script document object model and button
+            event handling for the whole process.
+        </p>
+        <p>
+            In this process I found if difficult to handle different outputs with different datatypes and I tries JSON
+            stringify and JSON parse to convert objects to strings ans vice-versa
+        </p>
+    </footer>
+
+</body>
+
+</html>
