@@ -1,0 +1,92 @@
+html, body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-image: url("./images/bgimg.jpg");
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+}
+
+h1{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+}
+
+#storyboard{
+
+    width: 50%;
+    height: 30%;
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+
+}
+
+#button{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+
+}
+
+.btn{
+
+    width: 25%;
+    height: 30%;
+
+}
+
+.img{
+    display: block;
+    height: 90%;
+    width: 45%;
+}
+
+#images{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 50%;
+
+}
+
+#storyboard{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+
+}
+
+#storyboard p{
+
+    display: block;
+    font-size: 30px;
+    font-style: italic;
+    color: green;
+    font-weight: bold;
+
+}
+
