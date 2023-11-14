@@ -1,0 +1,70 @@
+html, body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: blue;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    background-color: brown;
+}
+
+#storyboard{
+
+    background-color: yellow;
+    width: 50%;
+    height: 30%;
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+
+}
+
+#button{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    width: 50%;
+    height: 20%;
+
+}
+
+.btn{
+
+    width: 25%;
+    height: 30%;
+
+}
+
+.img{
+    display: block;
+    height: 90%;
+    width: 45%;
+}
+
+#images{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+    width: 75%;
+    height: 50%;
+
+}
