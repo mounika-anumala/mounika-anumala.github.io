@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lights Out Game</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Revenge of Lights Out</h1>
+    </div>
+    <div id="game-container">
+    </div>
+    <div>
+
+        <p id="count">Counter:0</p>
+
+    </div>
+    <div>
+        <h3>Addendum</h3>
+        <h4>HTML:</h4>
+        <p>For creating the game first, I used three div tags to hold the heading, main box and the counter and I used the
+        CSS for alignment of these. The main box is divided into the grid dynamically by CSS and JavaScript.</p>
+        <h4>CSS:</h4>
+        <p>First, I used CSS flex-box column flex on the body to align the contents of the body in vertical position and in
+        the main box which is the game box, I used grid to divide the whole box into tiles. These grid boxes change
+        color dynamically via js code.</p>
+        <h4>JavaScript:</h4>
+        <p>In JavaScript code, to make the game working, I used three functions: toggleCell, toggleAdjacentCell and
+        increaseCount. When ever a cell is clicked, it calls and even listener which internally calls toggle cell
+        function and in this function four toggleAdjacentCell function will be called for the current cell and an
+        increaseCount function will also be called to increment the number of attempts. These toggle function alter the
+        CSS of the cells to make them look like light on and light off.</p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
